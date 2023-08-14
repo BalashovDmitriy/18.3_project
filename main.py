@@ -5,8 +5,6 @@ from src.config import config
 github_user = "skypro-008"
 params = config()
 db_name = "repos_stats"
-connection = None
-cursor = None
 
 if __name__ == '__main__':
     list_ = get_repos_stats(github_user)
