@@ -9,7 +9,8 @@ def get_repos_stats(user):
                  'size': repo['size'],
                  'forks_count': repo['forks_count'],
                  'url': repo['html_url'],
-                 'created_at': repo['created_at']} for repo in response]
+                 'created_at': repo['created_at']}
+                for repo in response]
     return the_list
 
 
